@@ -1,0 +1,24 @@
+{
+  "name": "cypress-api",
+  "version": "1.0.0",
+  "description": "REST API TESTING WITH CYPRESS",
+  "main": "index.js",
+  "scripts": {
+    "test": "REST, CYPRESS, API"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EleniDanessis/cypress-api.git"
+  },
+  "keywords": [
+    "REST",
+    "CYPRESS",
+    "API"
+  ],
+  "author": "EleniDanessis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EleniDanessis/cypress-api/issues"
+  },
+  "homepage": "https://github.com/EleniDanessis/cypress-api#readme"
+}
