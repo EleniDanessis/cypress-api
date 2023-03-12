@@ -29,4 +29,17 @@ describe('REST API TEST WITH CYPRESS', () => {
 
     })
 
+    it('API Test-404 status validation', () => {
+
+        cy.request({
+            method: 'GET',
+            url: 'https://pokeapi.co/api/v2/pokemon/1000000',
+            failOnStatusCode: false
+        }).as('pokemon')
+
+        cy.get('@pokemon').its('status')
+        .should('equal', 404)
+
+    })
+
 })
